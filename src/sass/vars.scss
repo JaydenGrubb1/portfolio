@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+
+    --bg-top: #151223;
+    --bg-bottom: #090810;
+    --text-primary: #ffffff;
+    --text-secondary: #bababa;
+
+    --primary-color: #ffffff;
+
+    --menu-anim-time: 0.3s;
+    --menu-anim-ease: ease-in-out;
+    --menu-btn-anim-time: 0.5s;
+    --menu-btn-anim-ease: ease-in-out;
+
+    --accent-gradient: linear-gradient(45deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+}

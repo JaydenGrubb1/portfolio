@@ -28,11 +28,59 @@
 	<script defer src="js/main.js"></script>
 	<script defer src="https://kit.fontawesome.com/b0d37bbfab.js" crossorigin="anonymous"></script>
 	<link rel="canonical" href="https://www.jaydengrubb.com" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/vars.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-	<h1>Under Development...</h1>
+	<header>
+		<button class="nav-btn" onclick="toggleMenu()" aria-label="menu">
+			<div></div>
+		</button>
+		<nav>
+			<ul class="page-links">
+				<li><a href="#" onclick="toggleMenu()" aria-label="home">Home</a></li>
+				<li><a href="#projects" onclick="toggleMenu()" aria-label="home">Projects</a></li>
+				<li><a href="#about" onclick="toggleMenu()" aria-label="home">About</a></li>
+				<li><a href="#contact" onclick="toggleMenu()" aria-label="home">Contact</a></li>
+			</ul>
+			<ul class="social-links">
+				<li>
+					<a href="https://github.com/JaydenGrubb1" rel="external noopener" target="_blank"
+						aria-label="github">
+						<i class="fa-brands fa-github"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/jayden-grubb-ab162a123/" rel="external noopener"
+						target="_blank" aria-label="linked in">
+						<i class="fa-brands fa-linkedin"></i>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:contact@jaydengrubb.com" target="_blank" aria-label="email">
+						<i class="fa-solid fa-envelope"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div>
+		<section id="home">
+			<h2>Home</h2>
+		</section>
+		<section id="projects">
+			<h2>Projects</h2>
+		</section>
+		<section id="about">
+			<h2>About</h2>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+		</section>
+	</div>
 </body>
 
 </html>
