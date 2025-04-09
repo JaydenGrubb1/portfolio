@@ -1,11 +1,11 @@
 {
 	"name": "jaydengrubb-portfolio",
 	"devDependencies": {
-		"concurrently": "^8.2.2",
-		"firebase-tools": "^13.7.2",
-		"live-server": "^1.1.0",
-		"rimraf": "^5.0.5",
-		"sass": "^1.75.0"
+		"concurrently": "^9.1.2",
+		"firebase-tools": "^14.1.0",
+		"live-server": "^1.2.2",
+		"rimraf": "^6.0.1",
+		"sass": "^1.86.3"
 	},
 	"scripts": {
 		"start": "concurrently --kill-others \"sass --watch ./src/sass:./public/css --style expanded --update\" \"live-server ./public/\"",
